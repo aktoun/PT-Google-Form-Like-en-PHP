@@ -1,0 +1,51 @@
+.tm-status-circle {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: -3px;
+}
+
+.moving {
+  background-color: #9be64d;
+  box-shadow: 0 0 8px #9be64d, inset 0 0 8px #9be64d;
+}
+
+.cancelled {
+  background-color: #da534f;
+  box-shadow: 0 0 8px #da534f, inset 0 0 8px #da534f;
+}
+
+
+.tm-product-delete-icon {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.tm-product-delete-link {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #394e64;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.tm-product-delete-link:hover .tm-product-delete-icon {
+  color: #6d8ca6;
+}
+
+.sm1 {
+  font-size: 20px;
+}
+
+.sm2 {
+  font-size: 15px;
+}
+
+.unik {
+  overflow: hidden;
+}
